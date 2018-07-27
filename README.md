@@ -1,5 +1,5 @@
 # Introduction to Git and Github
-## URL for this repo: [git.sage.codes](git.sage.code)
+## URL for this repo: [git.sage.codes](https://github.com/sagecodes/intro-git-github)
 
 ## Setup
 
@@ -167,8 +167,9 @@ esc to get back to where to exit `:wq` (enter)
 ## Git Shared with Github
 
 - `git clone https://github.com/sagecodes/intro-git-github`
-
-
+- `git remote add origin github_url`
+- `git push -u origin master`
+- `git push origin branchname`
 
 
 ## More Resources!
