@@ -1,15 +1,37 @@
 # Introduction to Git and Github
+## URL for this repo: [git.sage.codes](git.sage.code)
 
 ## Setup
 
 - Have patience. Setting up software tools can be frustrating, but you'll get trough it! 
-- Install git https://git-scm.com/downloads
-- Create a github account https://github.com/join
+- [Install git https://git-scm.com/downloads](https://git-scm.com/downloads)
+- [Create a github account https://github.com/join](https://github.com/join)
+- Install a text editor like [VS code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
+- create a folder and open your text editor to that folder (This is where we will do file changes!)
 
 ## Introductions!
+Tell us about yourself!
+
+- Whats your name?
+- What are you learning / working on?
+- have you programmed before?
+
 
 ## Overview
-The goal of this brief course is to get you comfortable enough to start using git and github with your projects!
+The goal of this brief course is to get you comfortable enough to start using git and github with your projects! The best way to learn it is to start using it on your projects outside of this workshop!
+
+at a minimum we should be able to:
+
+- Create a git repo
+- understand the git stage cycle
+- add changes to the repo
+- create repo on github
+- push our repo up onto github
+- push changes onto github
+- clone a repo from github to our machine
+
+Lets do it!!!!! 
+
 
 #### Before we begin:
 * This course is for absolute beginners
@@ -17,6 +39,7 @@ The goal of this brief course is to get you comfortable enough to start using gi
 * Help others when you can
 * Be patient and nice
 * You will get through it!
+* git and github is complicated! Don't worry if it doesn't 100% make sense to you after the workshop. If you keep using it will!
 
 
 ## What is Git?
@@ -88,11 +111,14 @@ Lets see what commits we have made so far!
 - `git log -p` (pres `q` to get back to bash promt)
 
 ##### Undo staging
-git reset HEAD filename.file
+
+- `git reset HEAD` will pull all the files out of staging
+- `git reset HEAD filename.file` this will pull the file out staging
+
 
 ##### Git Diff
-- git diff
-- git diff --staged
+`- git diff`
+`- git diff --staged`
 
 ##### Remove and move
 git rm filename.file
@@ -106,18 +132,19 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 
 ##### revert
 
-git revert `cbb60c825aa5b0a1b3c7804de2fe6378c428bfd2`
-git revert HEAD
+
+`git revert cbb60c825aa5b0a1b3c7804de2fe6378c428bfd2`
+
+`git revert HEAD`
 
 ##### Branches
-git branch branchname
-git checkout branchname
-
+`git branch branchname`
+`git checkout branchname`
 
 
 ##### merging
 
-link to merge conflicts
+`git merge branchname`
 
 
 ## Git out of here!
@@ -126,6 +153,16 @@ link to merge conflicts
 
 ## Git squashed
 Squashing a commit is common in work enviroments
+
+`git rebase -i origin/master` use `f` on commits to change to `fixup`
+
+`r` to reword commit message
+`i` to enter interactive mode in vim
+esc to get back to where to exit `:wq` (enter)
+
+
+`git push origin featureBranch --force` commit will need to be forced since history was rewritten
+
 
 ## Git Shared with Github
 
