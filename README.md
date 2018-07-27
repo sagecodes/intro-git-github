@@ -3,22 +3,39 @@
 ## Setup
 
 - Have patience. Setting up software tools can be frustrating, but you'll get trough it! 
-- Install git
-- Create a github account
+- Install git https://git-scm.com/downloads
+- Create a github account https://github.com/join
 
 ## Introductions!
 
-## Workshop Goals
-get you using git!
+## Overview
+The goal of this brief course is to get you comfortable enough to start using git and github with your projects!
 
+#### Before we begin:
+* This course is for absolute beginners
+* Feel free to move ahead
+* Help others when you can
+* Be patient and nice
+* You will get through it!
 
 
 ## What is Git?
+Git is a version conrol system used to track changes in your files. 
 
-- Why use version control
+why use it:
 
+- undo mistakes & changes
+- experiment on branches(a duplicate of your project) 
+- use with github to share your work
 
 ## What is Github?
+Github is a way to store you files tracked with git online.
+
+why use it:
+
+- sharing projects with others
+- backup your projects
+- great way for companies to see your skillset!
 
 
 ## Git Started:
@@ -127,12 +144,45 @@ Squashing a commit is common in work enviroments
 
 
 
-## Upcoming Events
+## Upcoming Events!
 
-## Whos taken the workshop:
-Use git and github to do a pull request adding your name to the list!
+[Learn to Code Meetup](https://www.meetup.com/Learn-Code-Seattle/)
 
-- Sage Elliott
+
+## What is Galvanize?
+###### We are a community!
+#### Immersive Bootcamp
+- [Data Science](https://www.galvanize.com/seattle/data-science)
+- [Web Development](https://www.galvanize.com/seattle/web-development)
+
+#### Part-Time Courses
+- [Data Analytics](https://www.galvanize.com/seattle/data-analytics)
+- [Web Development Foundations with JavaScript](https://www.galvanize.com/seattle/web-development-foundations)
+- [Data Science Fundamentals](https://www.galvanize.com/seattle/data-science-fundamentals)
+- [Front End Web Development](https://www.galvanize.com/seattle/front-end-web-development)
+- [REACT INTENSIVE](https://www.galvanize.com/seattle/react-intensive)
+
+
+#### Co-working Space
+[work in our building!](https://www.galvanize.com/entrepreneur)
+
+#### Events 
+We host sooo many events! check out out [calendar](https://www.galvanize.com/seattle/events)
+
+## Questions:
+Please feel free to reach out to me with any questions!
+
+- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
+- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
+- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
+#### About the Instructors
+
+[Sage Elliott](https://www.linkedin.com/in/sageelliott/) is a technology evangelist for Galvanize based in Seattle. Previously he worked as a Software and hardware engineer for startup around Seattle WA and Melbourne Fl.
+
+You can email him at [sage.elliott@galvanize.com](mailto:age.elliott@galvanize.com) or tweet [@sagecodes](https://twitter.com/sagecodes) for any further questions.
+
+
 
 
 
