@@ -1,26 +1,40 @@
 # Introduction to Git and Github
 ## URL for this repo: [git.sage.codes](https://github.com/sagecodes/intro-git-github)
 
-## Setup
+## Setting up your computer
+
 
 - Have patience. Setting up software tools can be frustrating, but you'll get trough it! 
+
+#### Please set up the following:
+
 - [Install git https://git-scm.com/downloads](https://git-scm.com/downloads)
 - [Create a github account https://github.com/join](https://github.com/join)
 - Install a text editor like [VS code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 - create a folder and open your text editor to that folder (This is where we will do file changes!)
 
-## Introductions!
-Tell us about yourself!
+## About me:
+Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
+
+- Website: [sageelliott.com](http://sageelliott.com/)
+- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
+- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
+- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
+
+## About you!
+
+Give a quick Intro!
 
 - Whats your name?
-- What are you learning / working on?
-- have you programmed before?
+- Whats your background?
+- Why are you interested in JavaScript?
 
 
 ## Overview
 The goal of this brief course is to get you comfortable enough to start using git and github with your projects! The best way to learn it is to start using it on your projects outside of this workshop!
 
-at a minimum we should be able to:
+In this workshop at a minimum we should be learn to:
 
 - Create a git repo
 - understand the git stage cycle
@@ -28,6 +42,7 @@ at a minimum we should be able to:
 - create repo on github
 - push our repo up onto github
 - push changes onto github
+- pull changes from github
 - clone a repo from github to our machine
 
 Lets do it!!!!! 
@@ -56,25 +71,28 @@ Github is a way to store you files tracked with git online.
 
 why use it:
 
-- sharing projects with others
+- sharing projects with others (Collaboration and Code Reviews)
 - backup your projects
 - great way for companies to see your skillset!
-
+- release to production 
 
 ## Git Started:
 
-a few bash(terminal commands)
+We're going to to use our terminal / command line.
+
+a few terminal commands we will want to remember.
 
 - `cd` change directory 
 - `ls` List 
 - `ls -a` List all (even hidden files)
 
-How to exit terminal text editors
+How to exit terminal text editors (DONT GET STUCK)
 
 - nano `ctr + x` `ctr + o`(save & exit)
 - vi/vim `:q`(exit) `:wq`(save & exit)
 
 ##### Setup
+We should do this before we start using git
 
 `git config --global user.email "name@email.com"`
 `git config --global user.name "FirstName LastName"`
@@ -88,6 +106,11 @@ How to exit terminal text editors
 You just made your first commit!
 
 sometimes you don't want to add every file like the `git add .` command does. Instead you may want to only commit specific files. You can use `git add filename.file` command. replace "filename.file" with the actual name of your file. 
+
+##### Other ways to commit
+ 
+$ADD IN HERE
+
 
 ##### git commit messages
 
@@ -117,8 +140,8 @@ Lets see what commits we have made so far!
 
 
 ##### Git Diff
-`- git diff`
-`- git diff --staged`
+- `git diff`
+- `git diff --staged`
 
 ##### Remove and move
 git rm filename.file
@@ -131,7 +154,6 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 
 
 ##### revert
-
 
 `git revert cbb60c825aa5b0a1b3c7804de2fe6378c428bfd2`
 
