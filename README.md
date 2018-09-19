@@ -194,6 +194,33 @@ esc to get back to where to exit `:wq` (enter)
 - `git push origin branchname`
 
 
+## Quick Pull request from worked
+
+- Fork Repo you want to change
+- Clone your repo
+- Make your changes
+- Commit / Push 
+- Click "Pull Request"
+- Give description of Pull Request
+- Choose Correct branch you want to merge to
+- Review your commits / change logs (red = deleted grean modified / added)
+- Send pull request
+
+---
+
+- owner will usually leave comment or do code review
+- Then they may merge branches by clcking confirm mereg request
+
+---
+You may want to update from the original repo
+
+cd into/cloned/fork-repo
+git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+git fetch upstream
+
+git pull upstream master
+
+
 ## More Resources!
 
 - https://git-scm.com/book/en/v2
