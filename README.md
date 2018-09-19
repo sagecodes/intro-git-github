@@ -57,14 +57,37 @@ Lets do it!!!!!
 * git and github is complicated! Don't worry if it doesn't 100% make sense to you after the workshop. If you keep using it will!
 
 
+
+
 ## What is Git?
-Git is a version conrol system used to track changes in your files. 
+Git is a version control system used to track changes in your files. 
 
 why use it:
 
 - undo mistakes & changes
 - experiment on branches(a duplicate of your project) 
-- use with github to share your work
+- use with github or other online options to share and collaborate
+
+Git was created in 2005 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)(the creator of [Linux](https://en.wikipedia.org/wiki/Linux)).
+
+## What is Github?
+
+Github an online hosting and collaboration service that can be used with the version control system git.
+
+In 2018 Microsoft purchased Github for 7.5 billion!
+
+Created in 2008 by Chris Wanstrath, PJ Hyett and Tom Preston-Werner.
+
+Github is free to use as long your projects are open / visible to anyone.  If you want private repos for yourself or a team you need to sign up for a paid account.
+
+
+## Who uses Git & Github?
+
+Almost everyone in the working world uses some form of version control. The most popular by far is Git. 
+
+A lot of companies use Github as their online collaboration tool, but there are other very similer options such as, [Bitbucket](https://bitbucket.org/product) and [Gitlab](https://about.gitlab.com/).
+
+
 
 ## What is Github?
 Github is a way to store you files tracked with git online.
@@ -78,13 +101,15 @@ why use it:
 
 ## Git Started:
 
-We're going to to use our terminal / command line.
+We're going to to use our terminal / command line. One windows you should us the `git bash` program that got installed when you followed the setup section.
 
 a few terminal commands we will want to remember.
 
 - `cd` change directory 
-- `ls` List 
-- `ls -a` List all (even hidden files)
+	- `cd foldername` moves you into the folder you specify
+	- `cd ..` moves you back one folder
+- `ls` List items in folder
+- `ls -a` List all items (even hidden files)
 
 How to exit terminal text editors (DONT GET STUCK)
 
