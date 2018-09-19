@@ -66,8 +66,6 @@ Lets do it!!!!!
 * git and github is complicated! Don't worry if it doesn't 100% make sense to you after the workshop. If you keep using it will!
 
 
-
-
 ## What is Git?
 Git is a version control system used to track changes in your files. 
 
@@ -142,11 +140,21 @@ You just made your first commit!
 sometimes you don't want to add every file like the `git add .` command does. Instead you may want to only commit specific files. You can use `git add filename.file` command. replace "filename.file" with the actual name of your file. 
 
 ##### Other ways to commit
- 
-$ADD IN HERE
+This adds all and commits in one line 
 
+`git commit -a -m "message"`
+
+
+this will add the files or folders specified and commit on a seperate line
+
+```
+git add file`
+git commit -m "message"
+
+```
 
 ##### git commit messages
+You can type in whatever you want in your commot messages, but you should make sure they're clear what was changed / added. When you start working somewhere its common for there to be a standard format to follow.
 
 
 So what happened?
