@@ -8,7 +8,9 @@
 
 #### Please set up the following:
 
-- [Install git https://git-scm.com/downloads](https://git-scm.com/downloads)
+*note* if you already have Git installed skip the 1st step. You can check my opening up your terminal and typing `git`. If it returns a set of commands you can use you already have it installed!
+
+- [Download & Install git https://git-scm.com/downloads](https://git-scm.com/downloads) 
 - [Create a github account https://github.com/join](https://github.com/join)
 - Install a text editor like [VS code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 - create a folder and open your text editor to that folder (This is where we will do file changes!)
@@ -34,7 +36,7 @@ Give a quick Intro!
 
 
 ## Overview
-The goal of this brief course is to get you comfortable enough to start using git and github with your projects! The best way to learn it is to start using it on your projects outside of this workshop!
+The goal of this short workshop is to get you comfortable enough to start using git and github with your projects! The best way to learn it is to start using it on your projects outside of this workshop!
 
 In this workshop at a minimum we should be learn to:
 
@@ -46,6 +48,11 @@ In this workshop at a minimum we should be learn to:
 - push changes onto github
 - pull changes from github
 - clone a repo from github to our machine
+
+If we time we can tackle more, but even just with these skills you can start using git everyday with your projects.
+
+You'll probably want to learn more than I can cover tonight, so check out the `More Resources:` section near the end! Come hangout next Tuesday at code hours and I can help you if you're stuck. 
+
 
 Lets do it!!!!! 
 
@@ -247,7 +254,7 @@ git fetch upstream
 git pull upstream master
 
 
-## More Resources!
+## More Resources:
 
 - [Pro Git](https://git-scm.com/book/en/v2)
 - [Sage's git command cheatsheet](http://sageelliott.com/git-github-commands/)
