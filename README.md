@@ -179,13 +179,13 @@ Lets see what commits we have made so far!
 
 ##### Undo staging
 
-- `git reset HEAD` will pull all the files out of staging
+- `git reset HEAD` will pull all the files out of staging 
 - `git reset HEAD filename.file` this will pull the file out staging
 
 
 ##### Git Diff
-- `git diff`
-- `git diff --staged`
+- `git diff` a quick way to check differences in your terminal
+
 
 ##### Remove and move
 git rm filename.file
@@ -218,7 +218,7 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 
 
 ## Git squashed
-Squashing a commit is common in work enviroments
+Squashing a commit is common in work enviroments. Think of this add merging a set of commits in to one commit instead of leaving many that you probably did while working on a feature.
 
 `git rebase -i origin/master` use `f` on commits to change to `fixup`
 
