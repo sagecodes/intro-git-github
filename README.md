@@ -16,6 +16,8 @@
 ## About me:
 Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
 
+If you have an event you would like to see or put on let me know! I'm always looking for ideas. 
+
 - Website: [sageelliott.com](http://sageelliott.com/)
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
@@ -28,7 +30,7 @@ Give a quick Intro!
 
 - Whats your name?
 - Whats your background?
-- Why are you interested in JavaScript?
+- Why are you interested in Git / Github?
 
 
 ## Overview
@@ -178,7 +180,7 @@ git mv filename.file filenamechange.file
 Similarly we can use this command to bring back a deleted file `git checkout -- deletedFileName.file`
 
 
-##### revert
+##### Revert
 
 `git revert cbb60c825aa5b0a1b3c7804de2fe6378c428bfd2`
 
@@ -247,30 +249,40 @@ git pull upstream master
 
 ## More Resources!
 
-- https://git-scm.com/book/en/v2
-- http://sageelliott.com/git-github-commands/
-- https://teamtreehouse.com/library/introduction-to-git
-- https://git-scm.com/doc
-- http://git-school.github.io/visualizing-git/
+- [Pro Git](https://git-scm.com/book/en/v2)
+- [Sage's git command cheatsheet](http://sageelliott.com/git-github-commands/)
+- [Treehouse](https://teamtreehouse.com/library/introduction-to-git)
+- [Git Documentation](https://git-scm.com/doc)
+- [Git School Visualization](http://git-school.github.io/visualizing-git/)
+- [Datacamp](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
 
 
 ## Upcoming Events!
 
-[Learn to Code Meetup](https://www.meetup.com/Learn-Code-Seattle/)
+Join us on Meetup: [Learn to Code Meetup](https://www.meetup.com/Learn-Code-Seattle/)
+
+- [Hack the Machine Free 3 hackathon](https://www.eventbrite.com/e/hackthemachine-seattle-registration-48019112458) - this weekedend!
+- [Intro to HTML & CSS](https://www.meetup.com/Learn-Code-Seattle/events/253466466/) - Thursday, September 27, 2018
+6:30 PM to 8:30 PM
+- [Intro to JavaScript](https://www.meetup.com/Learn-Code-Seattle/events/253466491/) - Thursday, October 4, 2018
+6:30 PM to 8:30 PM
+- [Code Hours](https://www.meetup.com/Learn-Code-Seattle/events/mnlqdqyxmbhc/) - Tuesday, September 25, 2018
+6:30 PM to 8:30 PM
+- [Intro to Machine Learning](https://www.meetup.com/Learn-Code-Seattle/events/253466541/)Thursday, October 18, 2018
+6:30 PM to 8:30 PM
 
 
 ## What is Galvanize?
 ###### We are a community!
 #### Immersive Bootcamp
-- [Data Science](https://www.galvanize.com/seattle/data-science)
-- [Web Development](https://www.galvanize.com/seattle/web-development)
+- [Data Science](https://www.galvanize.com/seattle/data-science) - 1/22/2019
+- [Web Development](https://www.galvanize.com/seattle/web-development) - 1/2/2019
 
 #### Part-Time Courses
-- [Data Analytics](https://www.galvanize.com/seattle/data-analytics)
-- [Web Development Foundations with JavaScript](https://www.galvanize.com/seattle/web-development-foundations)
-- [Data Science Fundamentals](https://www.galvanize.com/seattle/data-science-fundamentals)
-- [Front End Web Development](https://www.galvanize.com/seattle/front-end-web-development)
-- [REACT INTENSIVE](https://www.galvanize.com/seattle/react-intensive)
+- [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 10/23/2018
+- [Web Development Foundations with JavaScript](https://www.galvanize.com/seattle/web-development-foundations) - 10/8/2018
+- [Data Science Fundamentals](https://www.galvanize.com/seattle/data-science-fundamentals) - TBD
+
 
 
 #### Co-working Space
