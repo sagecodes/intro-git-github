@@ -194,9 +194,8 @@ esc to get back to where to exit `:wq` (enter)
 - `git push origin branchname`
 
 
-## Quick Pull request from worked
-
-- Fork Repo you want to change
+## Pull Request Workflow
+- Fork Repo you want to change (*you wont always need to fork, if repo is already in your org / account*)
 - Clone your repo
 - Make your changes
 - Commit / Push 
@@ -228,7 +227,6 @@ git pull upstream master
 - https://teamtreehouse.com/library/introduction-to-git
 - https://git-scm.com/doc
 - http://git-school.github.io/visualizing-git/
-
 
 
 ## Upcoming Events!
