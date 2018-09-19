@@ -156,8 +156,8 @@ git commit -m "message"
 ##### git commit messages
 You can type in whatever you want in your commot messages, but you should make sure they're clear what was changed / added. When you start working somewhere its common for there to be a standard format to follow.
 
-
-So what happened?
+##### First Commit Analysis
+So what happened in our first commit?
 3 stages of git
 
 - Modified (When we used `git status` and saw it red)
@@ -172,8 +172,10 @@ lets make a small change to our file
 
 Lets see what commits we have made so far!
 
-- `git log`
-- `git log -p` (pres `q` to get back to bash promt)
+- `git log` shows the history of commits
+- `git log -p` shows more details about the latest commit
+
+ (pres `q` to get back to bash promt)
 
 ##### Undo staging
 
