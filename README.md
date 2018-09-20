@@ -204,8 +204,8 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 `git revert HEAD`
 
 ##### Branches
-`git branch branchname`
-`git checkout branchname`
+`git branch branchname` Creates a new branch (does not switch to it)
+`git checkout branchname` Switches to branch specified
 
 
 ##### merging
