@@ -214,6 +214,8 @@ Before merging make sure you are on the branch you want to merge your changes IN
 ## Git out of here!
 .gitignore
 
+You may want to always exclude some files or folders. You can include them in a .gitignore file and they wont be added!
+
 
 ## Git squashed
 Squashing a commit is common in work enviroments. Think of this add merging a set of commits in to one commit instead of leaving many that you probably did while working on a feature.
@@ -236,7 +238,7 @@ esc to get back to where to exit `:wq` (enter)
 - `git push origin branchname`
 
 
-## Pull Request Workflow
+## Simple Pull Request Workflow
 - Fork Repo you want to change (*you wont always need to fork, if repo is already in your org / account*)
 - Clone your repo
 - Make your changes
