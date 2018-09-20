@@ -188,7 +188,7 @@ Lets see what commits we have made so far!
 
 
 ##### Remove and move
-git rm filename.file
+git rm filename.file 
 git mv filename.file filenamechange.file
 
 ##### Disgarding Changes
@@ -209,8 +209,9 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 
 
 ##### merging
+Before merging make sure you are on the branch you want to merge your changes INTO. check what branch you're in with `git branch`
 
-`git merge branchname`
+`git merge branchname` merges the branch specfied into the current you're on.
 
 
 ## Git out of here!
