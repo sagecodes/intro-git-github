@@ -122,8 +122,9 @@ How to exit terminal text editors (DONT GET STUCK)
 ##### Setup
 We should do this before we start using git
 
-`git config --global user.email "name@email.com"`
-`git config --global user.name "FirstName LastName"`
+- `git config --global user.email "name@email.com"`
+
+- `git config --global user.name "FirstName LastName"`
 
 ##### First commit
 - `git init`
@@ -146,7 +147,6 @@ this will add the files or folders specified and commit on a separate line
 ```
 git add file`
 git commit -m "message"
-
 ```
 
 ##### git commit messages
@@ -196,15 +196,17 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 
 `git revert cbb60c825aa5b0a1b3c7804de2fe6378c428bfd2`
 
-`git revert HEAD`
-
+<!--`git revert HEAD`
+-->
 ##### Branches
 
 `git branch branchname` Creates a new branch (does not switch to it)
+
 `git checkout branchname` Switches to branch specified
 
 
 ##### merging
+
 Before merging make sure you are on the branch you want to merge your changes INTO. check what branch you're in with `git branch`
 
 `git merge branchname` merges the branch specified into the current you're on.
