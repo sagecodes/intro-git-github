@@ -11,7 +11,7 @@
 *note* if you already have Git installed skip the 1st step. You can check my opening up your terminal and typing `git`. If it returns a set of commands you can use you already have it installed!
 
 - [Download & Install git https://git-scm.com/downloads](https://git-scm.com/downloads) 
-- [Create a github account https://github.com/join](https://github.com/join)
+- [Create a Github account https://github.com/join](https://github.com/join)
 - Install a text editor like [VS code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 - create a folder and open your text editor to that folder (This is where we will do file changes!)
 
@@ -36,7 +36,7 @@ Give a quick Intro!
 
 
 ## Overview
-The goal of this short workshop is to get you comfortable enough to start using git and github with your projects! The best way to learn it is to start using it on your projects outside of this workshop!
+The goal of this short workshop is to get you comfortable enough to start using git and Github with your projects! The best way to learn it is to start using it on your projects outside of this workshop!
 
 In this workshop at a minimum we should be learn to:
 
@@ -73,7 +73,7 @@ why use it:
 
 - undo mistakes & changes
 - experiment on branches(a duplicate of your project) 
-- use with github or other online options to share and collaborate
+- use with Github or other online options to share and collaborate
 
 Git was created in 2005 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)(the creator of [Linux](https://en.wikipedia.org/wiki/Linux)).
 
@@ -99,7 +99,7 @@ why use it:
 
 Almost everyone in the working world uses some form of version control. The most popular by far is Git. 
 
-A lot of companies use Github as their online collaboration tool, but there are other very similer options such as, [Bitbucket](https://bitbucket.org/product) and [Gitlab](https://about.gitlab.com/).
+A lot of companies use Github as their online collaboration tool, but there are other very similar options such as, [Bitbucket](https://bitbucket.org/product) and [Gitlab](https://about.gitlab.com/).
 
 
 ## Git Started:
@@ -141,7 +141,7 @@ This adds all and commits in one line
 `git commit -a -m "message"`
 
 
-this will add the files or folders specified and commit on a seperate line
+this will add the files or folders specified and commit on a separate line
 
 ```
 git add file`
@@ -150,7 +150,7 @@ git commit -m "message"
 ```
 
 ##### git commit messages
-You can type in whatever you want in your commot messages, but you should make sure they're clear what was changed / added. When you start working somewhere its common for there to be a standard format to follow.
+You can type in whatever you want in your commit messages, but you should make sure they're clear what was changed / added. When you start working somewhere its common for there to be a standard format to follow.
 
 ##### First Commit Analysis
 So what happened in our first commit?
@@ -158,7 +158,7 @@ So what happened in our first commit?
 
 - Modified (When we used `git status` and saw it red)
 - staging (When we used `git status` and saw it green)
-- commited 
+- committed 
 
 lets make a small change to our file
 
@@ -171,7 +171,7 @@ Lets see what commits we have made so far!
 - `git log` shows the history of commits
 - `git log -p` shows more details about the latest commit
 
- (pres `q` to get back to bash promt)
+ (press `q` to get back to bash prompt)
 
 ##### Undo staging
 
@@ -187,11 +187,10 @@ Lets see what commits we have made so far!
 git rm filename.file 
 git mv filename.file filenamechange.file
 
-##### Disgarding Changes
+##### Discarding Changes
 - `git checkout -- filename.file`
 
 Similarly we can use this command to bring back a deleted file `git checkout -- deletedFileName.file`
-
 
 ##### Revert
 
@@ -208,7 +207,7 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 ##### merging
 Before merging make sure you are on the branch you want to merge your changes INTO. check what branch you're in with `git branch`
 
-`git merge branchname` merges the branch specfied into the current you're on.
+`git merge branchname` merges the branch specified into the current you're on.
 
 
 ## Git out of here!
@@ -218,7 +217,7 @@ You may want to always exclude some files or folders. You can include them in a 
 
 
 ## Git squashed
-Squashing a commit is common in work enviroments. Think of this add merging a set of commits in to one commit instead of leaving many that you probably did while working on a feature.
+Squashing a commit is common in work environments. Think of this add merging a set of commits in to one commit instead of leaving many that you probably did while working on a feature.
 
 `git rebase -i origin/master` use `f` on commits to change to `fixup`
 
@@ -246,13 +245,13 @@ esc to get back to where to exit `:wq` (enter)
 - Click "Pull Request"
 - Give description of Pull Request
 - Choose Correct branch you want to merge to
-- Review your commits / change logs (red = deleted grean modified / added)
+- Review your commits / change logs (red = deleted green modified / added)
 - Send pull request
 
 ---
 
 - owner will usually leave comment or do code review
-- Then they may merge branches by clcking confirm mereg request
+- Then they may merge branches by clicking confirm merge request
 
 ---
 You may want to update from the original repo
@@ -276,7 +275,7 @@ You may want to update from the original repo
 
 Join us on Meetup: [Learn to Code Meetup](https://www.meetup.com/Learn-Code-Seattle/)
 
-- [Hack the Machine Free 3 hackathon](https://www.eventbrite.com/e/hackthemachine-seattle-registration-48019112458) - this weekedend!
+- [Hack the Machine Free 3 hackathon](https://www.eventbrite.com/e/hackthemachine-seattle-registration-48019112458) - this weekend!
 - [Intro to HTML & CSS](https://www.meetup.com/Learn-Code-Seattle/events/253466466/) - Thursday, September 27, 2018
 6:30 PM to 8:30 PM
 - [Intro to JavaScript](https://www.meetup.com/Learn-Code-Seattle/events/253466491/) - Thursday, October 4, 2018
