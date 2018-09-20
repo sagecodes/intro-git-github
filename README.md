@@ -87,6 +87,13 @@ Created in 2008 by Chris Wanstrath, PJ Hyett and Tom Preston-Werner.
 
 Github is free to use as long your projects are open / visible to anyone.  If you want private repos for yourself or a team you need to sign up for a paid account.
 
+why use it:
+
+- sharing projects with others (Collaboration and Code Reviews)
+- backup your projects
+- great way for companies to see your skillset!
+- release to production 
+
 
 ## Who uses Git & Github?
 
@@ -94,17 +101,6 @@ Almost everyone in the working world uses some form of version control. The most
 
 A lot of companies use Github as their online collaboration tool, but there are other very similer options such as, [Bitbucket](https://bitbucket.org/product) and [Gitlab](https://about.gitlab.com/).
 
-
-
-## What is Github?
-Github is a way to store you files tracked with git online.
-
-why use it:
-
-- sharing projects with others (Collaboration and Code Reviews)
-- backup your projects
-- great way for companies to see your skillset!
-- release to production 
 
 ## Git Started:
 
@@ -204,6 +200,7 @@ Similarly we can use this command to bring back a deleted file `git checkout -- 
 `git revert HEAD`
 
 ##### Branches
+
 `git branch branchname` Creates a new branch (does not switch to it)
 `git checkout branchname` Switches to branch specified
 
@@ -258,11 +255,9 @@ esc to get back to where to exit `:wq` (enter)
 ---
 You may want to update from the original repo
 
-cd into/cloned/fork-repo
-git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
-git fetch upstream
-
-git pull upstream master
+`git remote add upstream git:Original_URL`
+`git fetch upstream`
+`git pull upstream master`
 
 
 ## More Resources:
