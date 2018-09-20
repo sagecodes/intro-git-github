@@ -14,6 +14,7 @@
 - [Create a Github account https://github.com/join](https://github.com/join)
 - Install a text editor like [VS code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 - create a folder and open your text editor to that folder (This is where we will do file changes!)
+- Create a github account [https://github.com/](https://github.com/)
 
 ## About me:
 Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
